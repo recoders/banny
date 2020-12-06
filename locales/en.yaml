@@ -1,0 +1,34 @@
+start:
+  welcome: "Hello there! Add me to your group and then you can configure me!"
+new_chat_member: "Congratulations! You add me to your group ${chat.anchor}! Now make me admin so i can follow your group chat"
+left_chat_member: "OMG! You removed me from your group ${chat.anchor}! Ok, lets try next time..."
+chat:
+  all: "Select chat to configure"
+  title: "Select chat rule to edit:"
+rule:
+  new: "Create new rule"
+  title: "Rule info:\n${ruleInfo}"
+  delete: "Delete rule"
+  whitelist: "Whitelist"
+  blacklist: "Blacklist"
+  back: "<< Back to chat"
+whitelist:
+  button: "Whitelist"
+  title: "Whitelist"
+blacklist:
+  button: "Blacklist"
+  title: "Blacklist"
+action:
+  button: "Setup action"
+  title: "Choose action for rule:"
+  title_0: Do nothing
+  title_10: Delete message
+  title_50: BAN
+rule_links:
+  button: "Allow links"
+  title: "Allow links?"
+  title_undefined: "-"
+  title_0: "No"
+  title_1: "Yes"
+  title_false: "No"
+  title_true: "Yes"
