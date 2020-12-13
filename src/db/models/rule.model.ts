@@ -89,7 +89,8 @@ export default class RuleModel extends Model {
   }
 
   private static findInList(text: string, list: string): boolean {
-    const listItems = list.split('\n')
+    text = text.toLowerCase()
+    const listItems = list.toLowerCase().split('\n')
     return listItems.findIndex((item) => text.indexOf(item) >= 0) >= 0
   }
 
