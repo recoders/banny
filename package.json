@@ -32,6 +32,7 @@
   "scripts": {
     "start": "node build/main.js",
     "start:watch": "nodemon src/main.ts",
+    "start:tasks:watch": "nodemon src/tasks.ts",
     "clean": "rimraf coverage build tmp",
     "build": "tsc -p tsconfig.release.json",
     "build:watch": "tsc -w -p tsconfig.release.json",

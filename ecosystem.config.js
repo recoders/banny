@@ -7,7 +7,7 @@ module.exports = {
     watch: ['build/**/*.js']
   }, {
     name: process.env.APP_NAME + '-sheduler',
-    script: 'build/scheduler.js',
+    script: 'build/tasks.js',
     watch: ['build/**/*.js']
   }],
 };

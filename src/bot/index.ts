@@ -1,5 +1,5 @@
 import { session, Telegraf } from "telegraf"
-import logger from '../logger'
+import logger from '../helpers/logger'
 import RedisSession from 'telegraf-session-redis'
 import { actionStart } from './action.start'
 import updateLogger from 'telegraf-update-logger'

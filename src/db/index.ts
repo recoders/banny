@@ -1,6 +1,6 @@
 import path from 'path'
 import { Sequelize } from 'sequelize-typescript'
-import logger from '../logger'
+import logger from '../helpers/logger'
 
 const sequelize = new Sequelize(process.env.DATABASE_URL, {
   // models: [__dirname + '/models/*.model.ts'],

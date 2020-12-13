@@ -4,7 +4,7 @@ import { InlineKeyboardButton } from 'telegraf/typings/telegram-types'
 import ChatModel from '../db/models/chat.model'
 import RuleModel, { EActionType } from '../db/models/rule.model'
 import UserModel from '../db/models/user.model'
-import logger from '../logger'
+import logger from '../helpers/logger'
 import { editMessageTextSafe } from './helpers'
 
 export async function actionCallback(ctx: Context & {
